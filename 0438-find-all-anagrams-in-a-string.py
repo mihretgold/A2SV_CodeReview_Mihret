@@ -6,7 +6,7 @@ class Solution:
         length = len(s)
         start = 0
 
-        # Count the occurrences of characters in string p
+        # Count the occurrences of characters in string p .
         for i in range(window):
             p_dict[p[i]] += 1
             
